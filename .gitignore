@@ -1,0 +1,7 @@
+outputs/
+qa/
+work/
+fix_build.py
+qa.py
+__pycache__/
+*.pyc
