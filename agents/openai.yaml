@@ -1,0 +1,4 @@
+interface:
+  display_name: "活动攻略 SEO 生成器"
+  short_description: "从游戏更新网址和 UGphone 资料生成多语言 SEO 攻略"
+  default_prompt: "请提供游戏更新参考网址，并指定电脑中 UGphone 资料所在的文件或文件夹。"
