@@ -1,4 +1,4 @@
 interface:
   display_name: "活动攻略 SEO 生成器"
-  short_description: "从游戏更新网址生成通俗易懂的多语言 SEO 攻略"
-  default_prompt: "请提供游戏更新或活动参考网址。"
+  short_description: "提供游戏更新网址，先确认默认格式，再生成通俗的多语言 SEO 攻略"
+  default_prompt: "请用 $activity-guide-seo 处理我提供的游戏更新网址，先询问是否按默认格式生成。"
