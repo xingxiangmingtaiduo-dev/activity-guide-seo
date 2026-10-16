@@ -12,11 +12,17 @@
 
 文件名使用 `<slug>-<语言代码>.md` 和 `<slug>-<语言代码>.docx`。ASCII 文件名不能代替文章内部标题的翻译。
 
+## 文件顶部顺序
+
+每个 Markdown 和 DOCX 文件的开头先放内部 `SEO metadata` 信息块，再放 H1。metadata 给编辑和发布人员查看，不属于文章正文；H1 之后才是读者文章内容。固定顺序为：`SEO metadata` → `H1` → 正文及图片内容 → Discord 社群邀请。metadata 字段内容使用目标语言，Source URL 和官方名称可保留原样；metadata 不计入正文长度。
+
+建议 metadata 包含：SEO Title、Slug、Primary Keyword、Long-tail Keywords、Meta Description、Tags、Language、Source、Version/更新时间、Checked 日期（有依据时填写）。Markdown 和 DOCX 必须显示同一份 metadata，不能只在正文末尾列出，也不能让 H1 出现在 metadata 之前。
+
 ## 标题检查
 
 每份文件的文章标题、SEO Title、H1、小标题、摘要、CTA、图片说明和图注都必须使用目标语言。SEO 字段名可保留技术标签，字段内容必须本地化。游戏和产品官方名称可以保留原名。
 
-生成前维护内部标题清单：语言代码、文章标题、SEO Title、H1。保存后重新读取 Markdown 和 DOCX，检查实际标题，不能只检查正文。DOCX 首段标题、页眉（如有）和文档标题属性也必须本地化。
+生成前维护内部标题清单：语言代码、文章标题、SEO Title、H1。保存后重新读取 Markdown 和 DOCX，检查实际标题，不能只检查正文。DOCX 的文章 H1、页眉（如有）和文档标题属性也必须本地化；metadata 按目标语言填写。
 
 ## 图片占位说明
 
